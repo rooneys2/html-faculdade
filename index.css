@@ -1,0 +1,137 @@
+body {
+    background-color: #f2f2f2; 
+}
+
+.header,
+.footer {
+    background-color: #ffffff; 
+    padding: 20px;
+    text-align: center;
+}
+
+.content {
+    background-color: #ffffff;
+    padding: 20px;
+    margin-top: 20px; 
+}
+
+.video-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    margin-top: 40px; 
+    margin-bottom: 40px; 
+}
+
+.video-container video {
+    width: 20%; 
+}
+
+.video-description {
+    width: 45%; 
+}
+
+.sobre-nos,
+.form-group,
+.icones {
+    margin-bottom: 30px;
+}
+
+/* Estilos para ícones redondos */
+.icones-redondos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px; 
+    margin-bottom: 40px; 
+}
+
+.icone-redondo {
+    text-align: center;
+    margin: 0 10px;
+}
+
+.icone-imagem-redonda {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%; 
+}
+
+.icone-descricao-redonda {
+    margin-top: 10px;
+}
+
+/* Estilos para campos de entrada */
+.form-control {
+    font-size: 14px; /* Reduz o tamanho da fonte nos campos de entrada */
+    width: 400px; /* Define a largura padrão */
+}
+
+/* Estilos para logos dos clientes */
+.cliente-logo {
+    width: 5px; /* Define a largura das logos dos clientes */
+    height: 5px; /* Mantém a proporção da imagem */
+}
+
+.cliente-descricao {
+    font-size: 12px; /* Define o tamanho da fonte para as descrições dos clientes */
+}
+/* Estilos para ícones redondos pequenos */
+.icone-imagem-redonda-pequena {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%; 
+}
+
+.icone-descricao-redonda {
+    margin-top: 5px;
+    font-size: 10px;
+}
+
+/* Estilos para centralizar a seção 'O que dizem sobre a gente' 
+.sobre-a-gente {
+    margin-top: 50px;
+}
+*/
+
+.sobre-a-gente h2 {
+    margin-bottom: 20px;
+}
+
+.sobre-a-gente p {
+    margin-bottom: 40px;
+}
+
+/* Estilos adicionais para ícones redondos */
+.icone-imagem-redonda {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%; 
+}
+
+.icone-descricao-redonda {
+    margin-top: 10px;
+}
+
+.sobre-a-gente {
+    background-image: url('./banner1_rotativo-1.jpg'); 
+    background-size: cover; 
+    background-color: #971010;
+    background-position: center; 
+    color: #f5eeee; 
+    padding: 50px 0; 
+}
+
+.sobre-nos {
+    background-image: url('./banner3_rotativo-1.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-color: #971010;
+    color: #fff; 
+    padding: 50px 0; 
+}
+
+.logo-menor{
+    width: 1px;
+    height: 4px;
+}
